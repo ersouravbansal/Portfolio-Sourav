@@ -27,14 +27,14 @@ function Home() {
               window.open("https://in.linkedin.com/in/ersouravbansal/");
             }}
               className='socailmediabtn'><FaLinkedinIn className='icon' /></button>
-            <button onClick={() => {
+            {/* <button onClick={() => {
               window.open("https://twitter.com/rahulvijay8156");
             }}
               className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
             <button onClick={() => {
               window.open("https://instagram.com/rahulvijay81");
             }}
-              className='socailmediabtn'><AiFillInstagram className='icon' /></button>
+              className='socailmediabtn'><AiFillInstagram className='icon' /></button> */}
           </Col>
 
           <Col md={5}>
