@@ -28,6 +28,8 @@ function Header() {
 
 
       <Navbar.Brand className='logotext' as={Link} to='/'>
+        {/* <div className='logobg'><div className='logo'></div></div> */}
+        <div className='logo-bg'></div>
         <div className='logo'></div>
       </Navbar.Brand>
 
@@ -80,7 +82,7 @@ function Header() {
 
           <Button
             onClick={() => {
-              window.open("https://drive.google.com/file/d/1V-dzW4a6YBkuyFIzMO1BpmV6G2TMSbkK/view?usp=share_link");
+              window.open("https://drive.google.com/file/d/1I2s_aOeykZGcsfljlt695ZwHe_9rcKiR/view?usp=sharing");
             }}
             className='resumebtn'><span>Resume</span>
           </Button>

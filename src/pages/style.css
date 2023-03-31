@@ -6,8 +6,14 @@
 .navbar {
   width: 100%;
   height: 100px;
-  background-color: transparent;
-  position: fixed !important;
+  background-color: grey;
+  background-image: linear-gradient(
+    43deg,
+    #808080 15%,
+    #757575 25%,
+    #808080 80%
+  );
+position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.5rem 3rem !important;
   font-size: 1.3rem !important;
@@ -76,7 +82,28 @@
   width: 90px;
   height: 80px;
 }
+.logo-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #927541; /* Replace with your desired color */
+  transform-origin: top left;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
 
+.navbar.sticky .logo-bg {
+  transform: scaleX(1);
+}
+
+.logobg{
+  background-image: url(../Assets/color.jpg);
+  background-size: cover;
+
+}
 .navbar-nav .nav-link {
   color: white !important;
   font-size: 16px !important;
@@ -93,7 +120,7 @@
   border-radius: 25px;
   padding: 0 25px;
   background-color: #41d0a0;
-  background-image: linear-gradient(43deg, #41d081 0%, #8c50c8 100%);
+  background-image: linear-gradient(43deg, #aba1af 0%, #a295a8 100%);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
   border: none;
 }
@@ -101,7 +128,7 @@
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 0rem !important;
-    background-color: transparent !important;
+    background-color: rgb(105, 105, 105) !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -110,12 +137,12 @@
     width: 100%;
     height: 250px;
     border-radius: 10px;
-    background-color: #41d0a0;
+    background-color: grey;
     background-image: linear-gradient(
       43deg,
-      #41d07f 0%,
-      #c850ba 0%,
-      #70deff 100%
+      #757575 0%,
+      #707070 0%,
+      #808080 100%
     );
   }
   .nav-link {
@@ -137,12 +164,12 @@
 .homepagebackground {
   width: 100%;
   height: 100vh;
-  background-color: #41d0a0;
+  background-color: #d2d2d3;
   background-image: linear-gradient(
     43deg,
-    #41d0a0 0%,
-    #5094c8 46%,
-    #dbff70 100%
+    #b8b4b4 25%,
+    #a59e9e 25%,
+    #bab3b8 75%
   );
 }
 .row {
@@ -191,7 +218,7 @@
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #191919 !important;
+  color: #1c1b1b !important;
 }
 .headtext {
   padding-top: 120px;
@@ -268,16 +295,17 @@
 .aboutpagebackground {
   width: 100%;
   height: 100vh;
-  background-color: #41d0a0;
+  background-color: #d2d2d3;
   background-image: linear-gradient(
     43deg,
-    #41d0a0 0%,
-    #5094c8 46%,
-    #dbff70 100%
-  );  padding-top: 110px;
+    #b8b4b4 25%,
+    #a59e9e 25%,
+    #bab3b8 75%
+  );
+  padding-top: 110px;
 }
 .textbackground {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   padding: 1rem;
   background-color: transparent;
@@ -344,12 +372,12 @@
 .projectbackground {
   width: 100%;
   height: 100%;
-  background-color: #41d0a0;
+  background-color: #d2d2d3;
   background-image: linear-gradient(
     43deg,
-    #41d0a0 0%,
-    #5094c8 46%,
-    #98ff70 100%
+    #b8b4b4 25%,
+    #a59e9e 25%,
+    #bab3b8 75%
   );
 }
 .project-section {
@@ -421,12 +449,12 @@
 .contactbackground {
   width: 100%;
   height: 100vh;
-  background-color: #41d0a0;
+  background-color: #d2d2d3;
   background-image: linear-gradient(
     43deg,
-    #41d0a0 0%,
-    #5094c8 46%,
-    #dbff70 100%
+    #b8b4b4 25%,
+    #a59e9e 25%,
+    #bab3b8 75%
   );
   padding-top: 110px;
 }

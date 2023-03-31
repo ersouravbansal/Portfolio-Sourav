@@ -12,12 +12,12 @@ function Aboutpage() {
               About <span>Me</span>
             </h3>
             <p className="aboutdetails">
-              I am a skilled Software Developer from India with expertise in Web
-              Development, ReactJs, RemixJs, and IMA SDK integration. I have
-              extensive experience in Drupal development, E-commerce, Agile
-              methodologies, and third-party integrations. With skills in
-              Site-Building, Back-End Development, Front-End Development, and
-              REST API Integrations, I deliver results that exceed expectations.
+                As an Indian Software Developer, I specialize in Web
+                Development, ReactJs, RemixJs, and IMA SDK integration. I am
+                experienced in E-commerce, third-party integrations, Drupal
+                development, and Agile methodologies.<br /> My skills range from
+                Site-Building, Back-End Development, Front-End Development, to
+                REST API Integrations, and my work always exceeds expectations.
             </p>
             <ul className="skilllist">
               <Row>
