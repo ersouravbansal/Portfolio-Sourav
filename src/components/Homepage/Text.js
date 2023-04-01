@@ -8,7 +8,8 @@ function Text() {
       options={{
         strings: [
           "Software Engineer",
-          "ReactJs | Drupal Developer",
+          "ReactJs Developer",
+          "Drupal Developer",
         ],
         autoStart: true,
         loop: true,

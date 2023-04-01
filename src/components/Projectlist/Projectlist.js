@@ -13,8 +13,8 @@ function Projectlist() {
   return (
     <div className="projectbackground">
       <Container fluid className="project-section">
-        <Container >
-          <Row className='d-flex  vh-100' style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Container >  
+          <Row className='d-flex' style={{ justifyContent: "center" }}>
           <span style={{paddingLeft: "40%",  paddingTop: "5%" }}>Projects will be update soon...<br/>Stay Tuned for further updates! </span><hr />
           <span style={{paddingLeft: "42%" }}> Have a great Day!</span>
             <Col md={4} className="project-card">

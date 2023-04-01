@@ -48,15 +48,10 @@ function Home() {
               <AiFillYoutube className="icon" />
             </button>
 
-
-            {/* <button onClick={() => {
-              window.open("https://twitter.com/rahulvijay8156");
-            }}
-              className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
             <button onClick={() => {
-              window.open("https://instagram.com/rahulvijay81");
+              window.open("https://instagram.com/sourabh744");
             }}
-              className='socailmediabtn'><AiFillInstagram className='icon' /></button> */}
+              className='socailmediabtn'><AiFillInstagram className='icon' /></button>
           </Col>
 
           <Col md={5}>

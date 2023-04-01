@@ -211,7 +211,7 @@ position: fixed !important;
   }
 }
 .Typewriter__wrapper {
-  font-size: 2.0em !important;
+  font-size: 1.8em !important;
   color: #191919 !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
@@ -281,9 +281,9 @@ position: fixed !important;
     font-size: 2.4em !important;
   }
   .imagedeveloper {
-    margin-top: 50px;
+    margin-top: 20px;
     max-width: 420px;
-    max-height: 400px;
+    max-height: 250px;
   }
   .socailmediabtn {
     margin-top: 1rem;
@@ -383,6 +383,7 @@ position: fixed !important;
 .project-section {
   position: relative !important;
   padding-top: 10px !important;
+  overflow: hidden;
 }
 .project-card {
   padding-top: 20px;
@@ -503,5 +504,16 @@ position: fixed !important;
   }
   .contactpara br {
     display: none;
+  }
+  .socailmediabtn {
+    margin-top: 1.5rem;
+    width: 75px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+  }
+  .logotext{
+    padding-top: 0px;
   }
 }
