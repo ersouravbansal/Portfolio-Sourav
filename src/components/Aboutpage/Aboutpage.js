@@ -24,7 +24,7 @@ function Aboutpage() {
                 <h3>Skills</h3>
                 <Col md={5}>
                   <li>React Js / Remix Js</li>
-                  <li>Video Players</li>
+                  <li>Redux / Video Players</li>
                   <li>TypeScript/JavaScript</li>
                   <li>MySQL / MongoDB</li>
                   <li>Acquia Personalization</li>
